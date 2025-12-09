@@ -1,0 +1,7 @@
+Django==4.2.7
+djangorestframework==3.14.0
+mysqlclient==2.2.1
+tensorflow==2.15.0
+numpy==1.26.2
+nltk==3.8.1
+corsheaders==4.3.0

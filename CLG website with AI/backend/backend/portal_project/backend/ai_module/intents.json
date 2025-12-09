@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Good day", "Greetings"],
+      "responses": ["Hello! How can I assist you today?", "Hi there, welcome to the College Portal!"],
+      "context_set": ""
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["How do I apply?", "What is the admission process?", "Application steps"],
+      "responses": ["The admission process involves an online application and submitting transcripts. Check the official Admission tab.", "You can start your application online right now!"],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": ["What courses are available?", "List of programs", "What can I study?"],
+      "responses": ["We offer programs in Computer Science, Business Administration, and Engineering.", "Which area are you interested in? We have popular courses like AI and Data Science."],
+      "context_set": ""
+    },
+    {
+      "tag": "fallback",
+      "patterns": [""],
+      "responses": ["I'm still learning! Could you rephrase that? Try asking about 'admission' or 'courses'.", "I apologize, I did not catch that. Please ask a common question about the college."],
+      "context_set": ""
+    }
+  ]
+}
